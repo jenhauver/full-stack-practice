@@ -1,0 +1,242 @@
+
+
+/*
+**********
+* =Header
+**********
+*/
+
+head{
+	min-width: 960px;
+	margin: center;
+}
+
+@font-face {
+	font-family: Days;
+	src: url("../fonts/days.otf");
+}
+
+body{
+	font-family: sans-serif;
+	color: #353535;
+	background: #f5f5f5;
+}
+
+.website_name{  
+	float:left;
+	clear: all;
+	height: 85px;
+	background-color: red;
+	color: #999900;
+	padding-top: 20px;
+	padding-left: 0;
+	margin-top: 30px;
+	margin-left: 0px;
+	margin-right: auto;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+.subtitle{  
+	float:left;
+	clear: all;
+	height: 85px;
+	background-color: red;
+	color: #999900;
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	overflow: hidden;
+}
+
+.thumb{
+	padding-top: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	float: right;
+	clear: all;
+	margin-left: 0;
+}
+
+.left_sidebar_container{
+	float:left;
+	height: 600px;
+	background-color: blue;
+}
+
+.Eggplants{
+	margin-left: 0;
+	clear: all;
+	font-family: Days, Helvetica, Verdana, Sans-Serif;
+	text-decoration: none;
+	padding: 0;
+	color: #6e6e6e;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+
+.left_sidebar h2{
+	font-family: Days, Helvetica, Verdana, Sans-Serif;
+	text-decoration: none;
+	padding: 0;
+	margin-top: 50px;
+	color: #181818;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 1.4em;
+}
+.left_sidebar a{
+	font-family: Days, Helvetica, Verdana, Sans-Serif;
+	text-decoration: none;
+	padding: 0;
+	color: #6e6e6e;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 1.4em;
+}
+.left_sidebar h3 a:hover {
+   text-decoration: bold;
+   color: #993366;
+}
+.left_sidebar h3 a:active {
+   border-top-color: #1b435e;
+   color: #1b435e;
+  }
+
+/*ul.nav li a:hover{
+	background: #e0e0e0;
+}
+ul.nav li.active a,
+ul.nav li.current_page_item a,
+ul.nav li.current_page_parent a{
+	background: #00b8ff;
+	color: #f5f5f5;
+}}*/
+.bodies p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-family: sans-serif;
+	line-height: 20px;
+	color: #353535;
+}
+
+
+blockquote{
+	height: 600px;
+}
+
+blockquote p{	
+	font-size: 1em;
+	line-height: 1em;
+	background-color: red;
+}
+
+#buttons {
+	text-indent: -9999px;
+	background: url(../../img/thumbnail.png) top left no-repeat;
+	float: right;
+   border-top: 1px solid #e3e3e3;
+   background: #e3e3e3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#e3e3e3));
+   background: -webkit-linear-gradient(top, #e3e3e3, #e3e3e3);
+   background: -moz-linear-gradient(top, #e3e3e3, #e3e3e3);
+   background: -ms-linear-gradient(top, #e3e3e3, #e3e3e3);
+   background: -o-linear-gradient(top, #e3e3e3, #e3e3e3);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   padding: 2px;
+   }
+
+#buttons:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+#buttons:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+}
+
+/*#footer{
+	border-top: 1px solid #d0d0d0;
+	padding: 10px 0;
+}
+
+*/
+
+/* -- Post Elements -- */
+
+/* -- Sidebar Elements -- */
+
+#sidebar_container ul li a{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	padding: 7px 10px;
+	text-decoration: none;
+	color: #6e6e6e;
+	float: left;
+	clear: both;
+	width: 260px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: Days, Helvetica, Verdana, Sans-Serif;
+}
+
+#sidebar_container ul li a:hover{
+	background: #e0e0e0;
+}
+
+#sidebar_container ul li.active a,
+#sidebar_container ul li.current_page_item a{
+	background: #00b8ff;
+	color: #f5f5f5;
+}
+
+/* -- Footer Elements -- */
+
+#footer{
+	color: #bebebe;
+}
+
+#footer a{
+	color: #6e6e6e;
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+#footer ul li{
+	float: right;
+	border-left: 1px solid #bebebe;
+	padding: 0 10px;
+}
+
+#footer ul li.copyright{
+	float: left;
+	padding: 0;
+	border: 0;
+}
+
+#footer_container ul li p{
+	margin: 0;
+}
